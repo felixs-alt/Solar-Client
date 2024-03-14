@@ -20,15 +20,15 @@ listener_01:
     online_server_list_trending: true
     online_server_list_portfolios: false
   http_server:
-    enabled: true
-    root: '../../../web'
+    enabled: false
+    root: 'web'
     page_404_not_found: 'default'
     page_index_name:
     - 'index.html'
     - 'index.htm'
   ratelimit:
     ip:
-      enable: false
+      enable: true
       period: 90
       limit: 60
       limit_lockout: 80
@@ -37,7 +37,7 @@ listener_01:
       - '127.*'
       - '0:0:0:0:0:0:0:1'
     login:
-      enable: false
+      enable: true
       period: 50
       limit: 5
       limit_lockout: 10
@@ -46,7 +46,7 @@ listener_01:
       - '127.*'
       - '0:0:0:0:0:0:0:1'
     motd:
-      enable: false
+      enable: true
       period: 30
       limit: 5
       limit_lockout: 15
@@ -55,7 +55,7 @@ listener_01:
       - '127.*'
       - '0:0:0:0:0:0:0:1'
     query:
-      enable: false
+      enable: true
       period: 30
       limit: 15
       limit_lockout: 25

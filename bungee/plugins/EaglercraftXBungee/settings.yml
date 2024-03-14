@@ -1,5 +1,5 @@
 server_name: 'EaglercraftXBungee Server'
-server_uuid: fc4d2b55-fa34-4869-b7b1-0acb1f42cb91
+server_uuid: 1c8f9301-9966-4a07-8fdf-b10d479e1f38
 websocket_connection_timeout: 15000
 websocket_handshake_timeout: 5000
 http_websocket_compression_level: 6
@@ -18,4 +18,4 @@ skin_cache_max_profiles: 32768
 skin_cache_antagonists_ratelimit: 15
 sql_driver_class: 'internal'
 sql_driver_path: 'internal'
-eagler_players_vanilla_skin: 'lax1dude'
+eagler_players_vanilla_skin: ''

@@ -10,7 +10,7 @@ echo "set -g mouse on" > ~/.tmux.conf
 
 tmux kill-session -t server
 tmux kill-session -t placeholder
-
+killall -9 java
 BASEDIR="$PWD"
 
 FORCE1="nah"
@@ -34,27 +34,23 @@ rm -rf /tmp/output
 mkdir -p bungee/plugins
 
 # update server
-rm ../server/server.jar
-cd ../server
-wget -O server.jar https://api.papermc.io/v2/projects/paper/versions/1.8.8/builds/445/downloads/paper-1.8.8-445.jar
+rm ./server/server.jar
+cp ./misc/paper-1.8.8.jar ./server/server.jar 
+# update eagler
+rm ./bungee/plugins/EaglercraftXBungee.jar
+wget -O ./bungee/plugins/EaglercraftXBungee.jar https://www.autistici.org/eaglercraft/builds/EaglercraftX_1.8/EaglercraftX_1.8_EaglerXBungee.jar
 # update waterfall!!
-cd ../bungee
-rm bungee-new.jar
+cd bungee
 WF_VERSION="`curl -s \"https://papermc.io/api/v2/projects/waterfall\" | jq -r \".version_groups[-1]\"`"
 WF_BUILDS="`curl -s \"https://papermc.io/api/v2/projects/waterfall/versions/$WF_VERSION/builds\"`"
 WF_SHA256="`echo $WF_BUILDS | jq -r \".builds[-1].downloads.application.sha256\"`"
 echo "$WF_SHA256 bungee.jar" | sha256sum --check
-retVal=$?
-if [ $retVal -ne 0 ]; then
-  wget -O bungee-new.jar "`echo $WF_BUILDS | jq -r \".builds[-1]|\\\"https://papermc.io/api/v2/projects/waterfall/versions/$WF_VERSION/builds/\\\"+(.build|tostring)+\\\"/downloads/\\\"+.downloads.application.name\"`"
-  if [ -f "bungee-new.jar" ]; then
-    rm bungee.jar
-    mv bungee-new.jar bungee.jar
-  fi
+wget -O bungee-new.jar "`echo $WF_BUILDS | jq -r \".builds[-1]|\\\"https://papermc.io/api/v2/projects/waterfall/versions/$WF_VERSION/builds/\\\"+(.build|tostring)+\\\"/downloads/\\\"+.downloads.application.name\"`"
+if [ -f "bungee-new.jar" ]; then
+  rm bungee.jar
+  mv bungee-new.jar bungee.jar
 fi
 cd ..
-
 # run it!!
-cd bungee
-java -Xmx128M -jar bungee.jar && java -Djline.terminal=jline.UnsupportedTerminal -Xmx512M -jar ../server/server.jar nogui
-done
+
+bash startbungee.sh & bash startmc.sh
