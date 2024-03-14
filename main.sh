@@ -26,95 +26,17 @@ if [ ! -d "eaglercraftx" ]; then
   FORCE1="bruh"
 fi
 
-# ~~~
-# BY MODIFYING THE BELOW TEXT, YOU ARE BEING A PRICK
-# ~~~
-if ! grep -q "^eula=$REPL_OWNER/$REPL_SLUG\$" "eula.txt"; then
-  rm eula.txt
-  java -jar LicensePrompt.jar
-  echo "eula=$REPL_OWNER/$REPL_SLUG" > eula.txt
-fi
-# ~~~
-
-# reset stuff
-if [ -f "base.repl" ] && ! { [ "$REPL_OWNER" == "ayunami2000" ] && [ "$REPL_SLUG" == "eaglercraftx" ]; }; then
-  rm base.repl
-  rm -rf server/world
-  rm -rf server/world_nether
-  rm -rf server/world_the_end
-  rm -rf server/logs
-  rm -rf server/plugins/PluginMetrics
-  rm -f server/usercache.json
-  rm -rf cuberite
-  rm -rf bungee/logs
-  rm -f bungee/eaglercraft_skins_cache.db
-  rm -f bungee/eaglercraft_auths.db
-  sed -i '/^stats: /d' bungee/config.yml
-  sed -i "s/^server_uuid: .*\$/server_uuid: $(cat /proc/sys/kernel/random/uuid)/" bungee/plugins/EaglercraftXBungee/settings.yml
-  rm -f /tmp/mcp918.zip
-  rm -f /tmp/1.8.8.jar
-  rm -f /tmp/1.8.json
-  chmod +x selsrv.sh
-  ./selsrv.sh
-fi
 
 rm -rf /tmp/##EAGLER.TEMP##
 rm -rf /tmp/teavm
 rm -rf /tmp/output
 
 mkdir -p bungee/plugins
-mkdir eaglercraftx
-mkdir web
 
-cd eaglercraftx
-git remote update
-LOCALHASH=$(git rev-parse @{0})
-REMOTEHASH=$(git rev-parse @{u})
-if [ "$LOCALHASH" != "$REMOTEHASH" ] || [ $FORCE1 == "bruh" ]; then
-  cd ..
-  rm -rf eaglercraftx
-  git clone https://gitlab.com/lax1dude/eaglercraftx-1.8 eaglercraftx --depth 1
-  mkdir eaglercraftx
-  cd eaglercraftx
-fi
-if [ -f "client_version" ] && [ -f "gateway_version" ]; then
-  if ! cmp -s "../client_version" "client_version"; then
-    rm ../client_version
-    cp client_version ../client_version
-    rm ../buildconf.json
-    sed "s#BASEDIR#$BASEDIR#" ../buildconf_template.json > ../buildconf.json
-    if [ ! -f /tmp/mcp918.zip ]; then
-      wget -O /tmp/mcp918.zip http://www.modcoderpack.com/files/mcp918.zip
-    fi
-    if [ ! -f /tmp/1.8.8.jar ]; then
-      wget -O /tmp/1.8.8.jar https://launcher.mojang.com/v1/objects/0983f08be6a4e624f5d85689d1aca869ed99c738/client.jar
-    fi
-    if [ ! -f /tmp/1.8.json ]; then
-      wget -O /tmp/1.8.json https://launchermeta.mojang.com/v1/packages/f6ad102bcaa53b1a58358f16e376d548d44933ec/1.8.json
-    fi
-    cd ..
-    tmux new -d -s placeholder "java -Xmx128M PlaceHTTPer 8080 Compiling the latest client.... Please wait!"
-    cd eaglercraftx
-    "$JAVA11" -Xmx512M -cp "buildtools/BuildTools.jar" net.lax1dude.eaglercraft.v1_8.buildtools.gui.headless.CompileLatestClientHeadless -y ../buildconf.json
-    retVal=$?
-    tmux kill-session -t placeholder
-    rm -rf /tmp/##EAGLER.TEMP##
-    rm -rf /tmp/teavm
-    if [ $retVal -eq 0 ]; then
-      cp -r /tmp/output/* ../web/
-    fi
-    rm -rf /tmp/output
-  fi
-  if ! cmp -s "../gateway_version" "gateway_version"; then
-    rm ../gateway_version
-    cp gateway_version ../gateway_version
-    if [ -f "gateway/EaglercraftXBungee/EaglerXBungee-Latest.jar" ]; then
-      rm ../bungee/plugins/EaglercraftXBungee.jar
-      cp gateway/EaglercraftXBungee/EaglerXBungee-Latest.jar ../bungee/plugins/EaglercraftXBungee.jar
-    fi
-  fi
-fi
-
+# update server
+rm ../server/server.jar
+cd ../server
+wget -O server.jar https://api.papermc.io/v2/projects/paper/versions/1.8.8/builds/445/downloads/paper-1.8.8-445.jar
 # update waterfall!!
 cd ../bungee
 rm bungee-new.jar
@@ -134,16 +56,5 @@ cd ..
 
 # run it!!
 cd bungee
-tmux new -d -s server "java -Xmx128M -jar bungee.jar; tmux kill-session -t server"
-cd ../server
-if [ ! -f "server.jar" ] && [ -d "../cuberite" ]; then
-  cd ../cuberite
-  tmux splitw -t server -v "BIND_ADDR=127.0.0.1 LD_PRELOAD=../bindmod.so ./Cuberite; tmux kill-session -t server"
-else
-  tmux splitw -t server -v "java -Djline.terminal=jline.UnsupportedTerminal -Xmx512M -jar server.jar nogui; tmux kill-session -t server"
-fi
-cd ..
-while tmux has-session -t server
-do
-  tmux a -t server
+java -Xmx128M -jar bungee.jar && java -Djline.terminal=jline.UnsupportedTerminal -Xmx512M -jar ../server/server.jar nogui
 done
