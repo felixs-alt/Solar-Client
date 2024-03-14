@@ -1,6 +1,6 @@
 enable_authentication_system: false
 use_onboard_eaglerx_system: true
-auth_db_uri: 'jdbc:mysql://avnadmin:AVNS_3o5H6gVMGyiuybSw2OO@eaglr-felixplays25-6ed8.a.aivencloud.com:11592/auth'
+auth_db_uri: 'jdbc:sqlite:eaglercraft_passwds.db'
 sql_driver_class: 'internal'
 sql_driver_path: 'internal'
 password_prompt_screen_text: 'Enter your password to join:'

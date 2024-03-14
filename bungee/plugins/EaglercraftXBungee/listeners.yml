@@ -10,7 +10,7 @@ listener_01:
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
   server_motd:
-  - '&6An EaglercraftX server'
+  - '&GAMESPACE MC'
   allow_motd: true
   allow_query: true
   request_motd_cache:
@@ -37,7 +37,7 @@ listener_01:
       - '127.*'
       - '0:0:0:0:0:0:0:1'
     login:
-      enable: true
+      enable: false
       period: 50
       limit: 5
       limit_lockout: 10
