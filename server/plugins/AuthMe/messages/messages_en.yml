@@ -5,8 +5,8 @@
 
 # Registration
 registration:
-  register_request: '&3Please, register to the server with the command: /register <password> <ConfirmPassword>'
-  command_usage: '&cUsage: /register <password> <ConfirmPassword>'
+  register_request: '&3Please, register to the server with the command: /register <password>'
+  command_usage: '&cUsage: /register <password>'
   reg_only: '&4Only registered users can join the server! Please visit http://example.com to register yourself!'
   kicked_admin_registered: 'An admin just registered you; please log in again.'
   success: '&2Successfully registered!'

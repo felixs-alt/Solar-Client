@@ -37,16 +37,6 @@ world-settings:
       flat-bedrock: false
     optimize-explosions: false
     mob-spawner-tick-rate: 1
-    cache-chunk-maps: false
-    tnt-explosion-volume: 4.0
-    squid-spawn-height:
-      minimum: 45.0
-      maximum: 63.0
-    player-blocking-damage-multiplier: 0.5
-    remove-invalid-mob-spawner-tile-entities: true
-    max-growth-height:
-      cactus: 3
-      reeds: 3
     fishing-time-range:
       MinimumTicks: 100
       MaximumTicks: 900
@@ -71,6 +61,16 @@ world-settings:
       enderpearls: false
       tnt-entities: false
       falling-blocks: false
+    cache-chunk-maps: false
+    player-blocking-damage-multiplier: 0.5
+    remove-invalid-mob-spawner-tile-entities: true
+    squid-spawn-height:
+      minimum: 45.0
+      maximum: 63.0
+    max-growth-height:
+      cactus: 3
+      reeds: 3
+    tnt-explosion-volume: 4.0
     disable-teleportation-suffocation-check: false
     lava-flow-speed:
       normal: 30

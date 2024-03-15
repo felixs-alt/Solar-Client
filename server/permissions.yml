@@ -1,0 +1,28 @@
+default:
+build: true
+default: false
+permissions:
+- modifyworld.*
+- essentials.spawn
+- essentials.sethome
+- essentials.home
+- essentials.tpa
+- essentials.tpaccept
+- essentials.tpdeny
+- essentials.balance
+- essentials.balancetop
+- essentials.afk
+- essentials.afk.auto
+- essentials.pay
+- essentials.help
+- essentials.mail
+- essentials.mail.send
+- essentials.msg
+- essentials.warps.A
+- essentials.warp
+- esentials.warps.list
+- essentials.signs.use.buy
+- essentials.signs.use.sell
+- essentials.list
+- essentials.helpop
+- essentials.chat.shout
