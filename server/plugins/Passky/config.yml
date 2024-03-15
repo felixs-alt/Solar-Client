@@ -1,0 +1,49 @@
+#       ------------ + Passky by Ziga Zajc + ------------   #
+#                                                           #
+#                             Config                        #
+#                                                           #
+#       --------- + ------------------------- + ---------   #
+#
+# Here you can change which encoder will your server use. You can use: MD2, MD5, SHA-1, SHA-256, SHA-384, SHA-512 or null - for no encoder
+encoder: "SHA-256"
+# How many times the player can enter the wrong password before server kicks it
+attempts: 15
+# How much time player have to log in before he gets kicked. Time is written in seconds.
+time_before_kick: 30
+# Minimum characters for password
+min_password_length: 4
+# Maximum characters for password
+max_password_length: 32
+# Don't allow players with illegal usernames to join your server
+kick_illegal_usernames: false
+# Do you want players to be identified with usernames (0) or UUIDs (1) (Default is usernames (0))
+player_identifier: 0
+# Hiding the command log of the plugin command in console?
+# It will protect password
+hide_password: true
+# If you enable session, player won't need to log in every time he enters this server (Awesome feature for Bungeecord servers)
+session_enabled: true
+# How many minutes do you want session to last?
+session_time: 30
+# Do you want to enable titles and subtitles?
+titles_enabled: true
+# This title will show when player is required to login
+login_title: "&aLogin"
+# This subtitle will show when player is required to login
+login_subtitle: "&a/login <password>"
+# This title will show when player is required to register
+register_title: "&aRegister"
+# This subtitle will show when player is required to register
+register_subtitle: "&a/register <password> <password>"
+#----------------------------------------------------------
+#   MySQL Database - Recommended for Bungeecord networks
+#----------------------------------------------------------
+# Do you want to use mysql database?
+mysql: true
+# Here are all data for connection to Mysql database. Please create database, user and password by yourself. Do not use root as user, because of security risk!
+mysql_host: "eaglr-felixplays25-6ed8.a.aivencloud.com"
+mysql_port: "11592"
+mysql_database: "Auth"
+mysql_user: "avnadmin"
+mysql_password: "AVNS_3o5H6gVMGyiuybSw2OO"
+mysql_useSSL: true
