@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 127.0.0.1
+ip-address: 0:0:0:0:0:0:0:1
 afk: false
 socialspy: false
 npc: false
@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1710516130307
+  logout: 1710518009916
+  login: 1710518005791
 money: '0'
 last-account-name: FelixG
+logoutlocation:
+  world: 6de05bd8-3153-4d0e-929c-6e0cc039b660
+  world-name: ../data/world
+  x: 70.62296335347469
+  y: 70.0
+  z: 66.24466526338952
+  yaw: -3.300018310546875
+  pitch: 13.350001335144043

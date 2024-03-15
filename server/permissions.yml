@@ -1,8 +1,6 @@
 default:
-build: true
 default: false
 permissions:
-- modifyworld.*
 - essentials.spawn
 - essentials.sethome
 - essentials.home

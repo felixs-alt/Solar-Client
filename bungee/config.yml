@@ -40,7 +40,7 @@ listeners:
   tab_size: 60
   force_default_server: false
 remote_ping_timeout: 50000
-ip_forward: false
+ip_forward: true
 network_compression_threshold: 256
 reject_transfers: false
 remote_ping_cache: -1
