@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-COPY . .
+COPY . ./data
 VOLUME ["/data"]
 WORKDIR /data
 RUN apt-get update -y
