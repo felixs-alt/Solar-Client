@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1710520021007
+  login: 1710519959705
+money: '0'
+last-account-name: FelixG
+logoutlocation:
+  world: 7b6c4725-3f96-4b69-b76a-b7bfb5c625a2
+  world-name: ../data/world
+  x: 84.0122768404152
+  y: 71.0
+  z: 59.73788206919524
+  yaw: -126.30001831054688
+  pitch: 5.100000381469727
