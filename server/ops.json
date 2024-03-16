@@ -10,5 +10,11 @@
     "name": "FelixG",
     "level": 4,
     "bypassesPlayerLimit": false
+  }, 
+  {
+    "uuid": "e38aaaf3-6b65-4948-a494-c1ed27fe824a",
+    "name": "Yaffled",
+    "level": 4,
+    "bypassesPlayerLimit": true
   }
 ]

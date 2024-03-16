@@ -24,7 +24,7 @@ servers:
     restricted: false
 listeners:
 - query_port: 25577
-  motd: '&1Another Bungee server'
+  motd: '&a&lGAMESPACE MC'
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
