@@ -11,7 +11,7 @@ listener_01:
   server_icon: server-icon.png
   server_motd:
   - '&a&lGAMESPACE MC'
-  - '&a&lMINECRAFT IS BACK'
+  - '&aMINECRAFT IS BACK'
   allow_motd: true
   allow_query: true
   request_motd_cache:
