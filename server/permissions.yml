@@ -1,26 +1,26 @@
 default:
-default: false
-permissions:
-- essentials.spawn
-- essentials.sethome
-- essentials.home
-- essentials.tpa
-- essentials.tpaccept
-- essentials.tpdeny
-- essentials.balance
-- essentials.balancetop
-- essentials.afk
-- essentials.afk.auto
-- essentials.pay
-- essentials.help
-- essentials.mail
-- essentials.mail.send
-- essentials.msg
-- essentials.warps.A
-- essentials.warp
-- esentials.warps.list
-- essentials.signs.use.buy
-- essentials.signs.use.sell
-- essentials.list
-- essentials.helpop
-- essentials.chat.shout
+  default: true
+  permissions:
+    - essentials.spawn : true
+    - essentials.sethome: true
+    - essentials.home: true
+    - essentials.tpa: true
+    - essentials.tpaccept: true
+    - essentials.tpdeny: true
+    - essentials.balance: true
+    - essentials.balancetop: true
+    - essentials.afk: true
+    - essentials.afk.auto: true
+    - essentials.pay: true
+    - essentials.help: true
+    - essentials.mail: true
+    - essentials.mail.send: true
+    - essentials.msg: true
+    - essentials.warps.A: true
+    - essentials.warp: true
+    - esentials.warps.list: true
+    - essentials.signs.use.buy: true
+    - essentials.signs.use.sell: true
+    - essentials.list: true
+    - essentials.helpop: true
+    - essentials.chat.shout: true
