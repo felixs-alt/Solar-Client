@@ -11,7 +11,7 @@ uuid_lookup_ratelimit_player: 500
 uuid_lookup_ratelimit_global: 1750
 skin_download_ratelimit_player: 10000
 skin_download_ratelimit_global: 300000
-skin_cache_db_uri: 'jdbc:sqlite:../../../data/eaglercraft_skins_cache.db'
+skin_cache_db_uri: 'jdbc:sqlite:eaglercraft_skins_cache.db'
 skin_cache_keep_objects_days: 45
 skin_cache_keep_profiles_days: 7
 skin_cache_max_objects: 327680

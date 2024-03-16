@@ -13,5 +13,5 @@ command_success_text: '&bYour eagler password was changed successfully.'
 last_eagler_login_message: 'Your last Eaglercraft login was on $date from $ip'
 too_many_registrations_message: '&cThe maximum number of registrations has been reached for your IP address'
 need_vanilla_to_register_message: '&cYou need to log in with a vanilla account to use this command'
-override_eagler_to_vanilla_skins: false
+override_eagler_to_vanilla_skins: true
 max_registration_per_ip: -1

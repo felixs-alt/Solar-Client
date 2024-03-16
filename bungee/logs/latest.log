@@ -1,78 +1,119 @@
-[17:20:28] [main/INFO]: Using mbed TLS based native cipher.
-[17:20:28] [main/INFO]: Using zlib based native compressor.
-[17:20:28] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.20-R0.3-SNAPSHOT:c5fd43a:565
-[17:20:28] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
-[17:20:28] [main/INFO]: Epoll is working, utilising it!
-[17:20:28] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
-[17:20:28] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
-[17:20:28] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
-[17:20:28] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
-[17:20:28] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
-[17:20:28] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
-[17:20:28] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
-[17:20:28] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
-[17:20:28] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
-[17:20:28] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
-[17:20:28] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
-[17:20:28] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
-[17:20:28] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[17:20:28] [main/WARN]: :>  
-[17:20:28] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
-[17:20:28] [main/WARN]: :>  
-[17:20:28] [main/WARN]: :>  This plugin wasn't tested to be 'working'
-[17:20:28] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
-[17:20:28] [main/WARN]: :>  apart from the versions listed below:
-[17:20:28] [main/WARN]: :>  
-[17:20:28] [main/WARN]: :>  - BungeeCord: 1.20-R0.3-SNAPSHOT:eda268b:1797
-[17:20:28] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:92b5149:562
-[17:20:28] [main/WARN]: :>  - FlameCord: 1.1.1
-[17:20:28] [main/WARN]: :>  
-[17:20:28] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
-[17:20:28] [main/WARN]: :>  
-[17:20:28] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
-[17:20:28] [main/WARN]: :>  
-[17:20:28] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[17:20:29] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.10 by lax1dude
-[17:20:29] [main/WARN]: Forced host server pvp is not defined
-[17:20:29] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
-[17:20:29] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
-[17:20:29] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
-[17:20:29] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
-[17:20:29] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
-[17:20:29] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
-[17:20:29] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
-[17:20:29] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[17:20:29] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
-[17:20:29] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25577
-[17:20:29] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /mnt/c/Users/felix/Documents/GitHub/Solar-Client/bungee/plugins/EaglercraftXBungee/eagcert/$dl.24a1bafc15c675276968d78cdcb55a04992bddb0.cert
-[17:20:42] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39768]: Connected via websocket
-[17:20:42] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39768]: Origin header is https://felixs-alt.github.io
-[17:20:42] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39768]: Logged in as 'FelixG'
-[17:20:42] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:39768|FelixG] -> UpstreamBridge has connected
-[17:20:43] [EaglerXBungee: Network Tick Tasks/ERROR] [EaglercraftXBungee]: Exception in thread "EaglerXBungee: Network Tick Tasks"! java.lang.NullPointerException: Cannot read field "TO_CLIENT" because "encodeProtocol" is null
-[17:20:43] [EaglerXBungee: Network Tick Tasks/ERROR]: java.lang.NullPointerException: Cannot read field "TO_CLIENT" because "encodeProtocol" is null
-[17:20:43] [EaglerXBungee: Network Tick Tasks/ERROR]: 	at net.md_5.bungee.UserConnection.sendPacketQueued(UserConnection.java:199)
-[17:20:43] [EaglerXBungee: Network Tick Tasks/ERROR]: 	at net.md_5.bungee.UserConnection.sendData(UserConnection.java:575)
-[17:20:43] [EaglerXBungee: Network Tick Tasks/ERROR]: 	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.EaglerPipeline$1.run(EaglerPipeline.java:133)
-[17:20:43] [EaglerXBungee: Network Tick Tasks/ERROR]: 	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
-[17:20:43] [EaglerXBungee: Network Tick Tasks/ERROR]: 	at java.base/java.util.TimerThread.run(Timer.java:516)
-[17:20:43] [Netty Worker IO Thread #1/INFO]: [FelixG|/[0:0:0:0:0:0:0:1%0]:39768] <-> ServerConnector [lobby] has connected
-[17:21:27] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:39768|FelixG] -> UpstreamBridge has disconnected
-[17:21:27] [Netty Worker IO Thread #1/INFO]: [FelixG] disconnected with: Proxy lost connection to server.
-[17:21:27] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:39768|FelixG] <-> DownstreamBridge <-> [lobby] has disconnected
-[17:21:52] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55572]: Connected via websocket
-[17:21:52] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55572]: Origin header is https://felixs-alt.github.io
-[17:21:52] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55572]: Logged in as 'FelixG'
-[17:21:52] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:55572|FelixG] -> UpstreamBridge has connected
-[17:21:52] [Netty Worker IO Thread #2/INFO]: [FelixG|/[0:0:0:0:0:0:0:1%0]:55572] <-> ServerConnector [lobby] has connected
-[17:25:55] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:55572|FelixG] -> UpstreamBridge has disconnected
-[17:25:55] [Netty Worker IO Thread #2/INFO]: [FelixG] disconnected with: Proxy lost connection to server.
-[17:25:55] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:55572|FelixG] <-> DownstreamBridge <-> [lobby] has disconnected
-[17:25:59] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33160]: Connected via websocket
-[17:25:59] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33160]: Origin header is https://felixs-alt.github.io
-[17:25:59] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33160]: Logged in as 'FelixG'
-[17:25:59] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:33160|FelixG] -> UpstreamBridge has connected
-[17:25:59] [Netty Worker IO Thread #3/INFO]: [FelixG|/[0:0:0:0:0:0:0:1%0]:33160] <-> ServerConnector [lobby] has connected
-[17:27:00] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:33160|FelixG] -> UpstreamBridge has disconnected
-[17:27:00] [Netty Worker IO Thread #3/INFO]: [FelixG] disconnected with: Proxy lost connection to server.
-[17:27:00] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:33160|FelixG] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:04:58] [main/INFO]: Using mbed TLS based native cipher.
+[12:04:58] [main/INFO]: Using zlib based native compressor.
+[12:04:58] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.20-R0.3-SNAPSHOT:c5fd43a:565
+[12:04:58] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[12:04:58] [main/INFO]: Epoll is working, utilising it!
+[12:04:58] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[12:04:58] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[12:04:58] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[12:04:58] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[12:04:58] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[12:04:58] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[12:04:59] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
+[12:04:59] [main/INFO]: Loaded plugin BungeeResourcepacks version 1.9.0-SNAPSHOT (build 565) by Phoenix616
+[12:04:59] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
+[12:04:59] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
+[12:04:59] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
+[12:04:59] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
+[12:04:59] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
+[12:04:59] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[12:04:59] [main/WARN]: :>  
+[12:04:59] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[12:04:59] [main/WARN]: :>  
+[12:04:59] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[12:04:59] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[12:04:59] [main/WARN]: :>  apart from the versions listed below:
+[12:04:59] [main/WARN]: :>  
+[12:04:59] [main/WARN]: :>  - BungeeCord: 1.20-R0.3-SNAPSHOT:eda268b:1797
+[12:04:59] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:92b5149:562
+[12:04:59] [main/WARN]: :>  - FlameCord: 1.1.1
+[12:04:59] [main/WARN]: :>  
+[12:04:59] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[12:04:59] [main/WARN]: :>  
+[12:04:59] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[12:04:59] [main/WARN]: :>  
+[12:04:59] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[12:04:59] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: Adolf_Hitlerr
+[12:05:00] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: Adolf_Hitlerr
+[12:05:00] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[12:05:00] [main/WARN]: Forced host server pvp is not defined
+[12:05:00] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
+[12:05:00] [main/INFO] [BungeeResourcepacks]: Loading config!
+[12:05:00] [main/INFO] [BungeeResourcepacks]: Debug level: INFO
+[12:05:00] [main/INFO] [BungeeResourcepacks]: Found locale en
+[12:05:00] [main/INFO] [BungeeResourcepacks]: Loading packs:
+[12:05:00] [main/INFO] [BungeeResourcepacks]: lobbypack - https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axxofxpueq7w/b/eagler/o/resources.zip - 249a2ee6e33cdb5754101aa0e82df34e8f1fe432
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] {url=https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axxofxpueq7w/b/eagler/o/resources.zip, uuid=01234567-89ab-cdef-0123-456789abcdef, hash=249a2ee6e33cdb5754101aa0e82df34e8f1fe432, local-path=null, format=1, version=1.8, restricted=false, permission=bungeeresourcepacks.pack.lobbypack, type=null, variants=null}
+[12:05:00] [main/INFO] [BungeeResourcepacks]: Empty pack - http://cdn.moep.tv/files/Empty.zip - 01517226212d27586ea0c5d6aff1aa5492dd2484
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] No global assignment defined!
+[12:05:00] [main/INFO] [BungeeResourcepacks]: Loading server assignments...
+[12:05:00] [main/INFO] [BungeeResourcepacks]: Loading assignment for server lobby...
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Pack: lobbypack
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Loaded server assignment PackAssignment{name=lobby, packs=[lobbypack], optional-packs=[], sendDelay=-1}
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Stored packs override assignments: false
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Append hash to pack URL: true
+[12:05:00] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /mnt/c/Users/felix/Documents/GitHub/Solar-Client/bungee/plugins/EaglercraftXBungee/eagcert/$dl.24a1bafc15c675276968d78cdcb55a04992bddb0.cert
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Registering ResourcePackSendPacket in GAME phase...
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] BungeeCord 1.9.4+ (765) detected!
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Found mapping for 1.8+ GAME Protocol.ProtocolMapping(protocolVersion=47, packetID=72)
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Found mapping for 1.9+ GAME Protocol.ProtocolMapping(protocolVersion=107, packetID=50)
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Found mapping for 1.12+ GAME Protocol.ProtocolMapping(protocolVersion=335, packetID=51)
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Found mapping for 1.12.1+ GAME Protocol.ProtocolMapping(protocolVersion=338, packetID=52)
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Found mapping for 1.13+ GAME Protocol.ProtocolMapping(protocolVersion=393, packetID=55)
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Found mapping for 1.14+ GAME Protocol.ProtocolMapping(protocolVersion=477, packetID=57)
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Found mapping for 1.15+ GAME Protocol.ProtocolMapping(protocolVersion=573, packetID=58)
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Found mapping for 1.16+ GAME Protocol.ProtocolMapping(protocolVersion=735, packetID=57)
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Found mapping for 1.16.2+ GAME Protocol.ProtocolMapping(protocolVersion=751, packetID=56)
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Found mapping for 1.17+ GAME Protocol.ProtocolMapping(protocolVersion=755, packetID=60)
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Found mapping for 1.19+ GAME Protocol.ProtocolMapping(protocolVersion=759, packetID=58)
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Found mapping for 1.19.1+ GAME Protocol.ProtocolMapping(protocolVersion=760, packetID=61)
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Found mapping for 1.19.3+ GAME Protocol.ProtocolMapping(protocolVersion=761, packetID=60)
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Found mapping for 1.19.4+ GAME Protocol.ProtocolMapping(protocolVersion=762, packetID=64)
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Found mapping for 1.20.2+ GAME Protocol.ProtocolMapping(protocolVersion=764, packetID=66)
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Found mapping for 1.20.3+ GAME Protocol.ProtocolMapping(protocolVersion=765, packetID=68)
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Registering ResourcePackSendPacket in CONFIGURATION phase...
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] BungeeCord 1.9.4+ (765) detected!
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Found mapping for 1.20.2+ CONFIGURATION Protocol.ProtocolMapping(protocolVersion=764, packetID=6)
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Found mapping for 1.20.3+ CONFIGURATION Protocol.ProtocolMapping(protocolVersion=765, packetID=7)
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Registering ResourcePackRemovePacket in GAME phase...
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] BungeeCord 1.9.4+ (765) detected!
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Found mapping for 1.20.3+ GAME Protocol.ProtocolMapping(protocolVersion=765, packetID=67)
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Registering ResourcePackRemovePacket in CONFIGURATION phase...
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] BungeeCord 1.9.4+ (765) detected!
+[12:05:00] [main/INFO] [BungeeResourcepacks]: [DEBUG] Found mapping for 1.20.3+ CONFIGURATION Protocol.ProtocolMapping(protocolVersion=765, packetID=6)
+[12:05:00] [BungeeResourcepacks Pool Thread #1/INFO] [BungeeResourcepacks]: Generating hashes...
+[12:05:00] [BungeeResourcepacks Pool Thread #1/INFO] [BungeeResourcepacks]: Downloading lobbypack...
+[12:05:00] [main/INFO]: Enabled plugin BungeeResourcepacks version 1.9.0-SNAPSHOT (build 565) by Phoenix616
+[12:05:00] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
+[12:05:00] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
+[12:05:00] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
+[12:05:00] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
+[12:05:00] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.20-R0.3-SNAPSHOT:c5fd43a:565 by WaterfallMC
+[12:05:00] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[12:05:00] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[12:05:00] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[12:05:01] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25577
+[12:05:01] [BungeeResourcepacks Pool Thread #1/INFO] [BungeeResourcepacks]: SHA 1 hash of lobbypack: 249a2ee6e33cdb5754101aa0e82df34e8f1fe432
+[12:05:01] [BungeeResourcepacks Pool Thread #1/INFO] [BungeeResourcepacks]: Downloading empty...
+[12:05:01] [BungeeResourcepacks Pool Thread #1/INFO] [BungeeResourcepacks]: SHA 1 hash of empty: 01517226212d27586ea0c5d6aff1aa5492dd2484
+[12:05:01] [BungeeResourcepacks Pool Thread #1/INFO] [BungeeResourcepacks]: No hash changed!
+[12:06:17] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51088]: Connected via websocket
+[12:06:17] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51088]: Origin header is https://eaglrbuilt-hidden-lake-885.fly.dev
+[12:06:17] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51088]: Logged in as 'FelixG'
+[12:06:17] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:51088|FelixG] -> UpstreamBridge has connected
+[12:06:17] [Netty Worker IO Thread #1/INFO]: [FelixG|/[0:0:0:0:0:0:0:1%0]:51088] <-> ServerConnector [lobby] has connected
+[12:06:17] [Netty Worker IO Thread #1/WARN]: [FelixG|/[0:0:0:0:0:0:0:1%0]:51088] <-> ServerConnector [lobby] - NativeIoException: recvAddress(..) failed: Connection reset by peer
+[12:06:17] [Netty Worker IO Thread #1/INFO]: [FelixG] disconnected with: Exception Connecting: NativeIoException : recvAddress(..) failed: Connection reset by peer
+[12:06:17] [Netty Worker IO Thread #1/INFO] [BungeeResourcepacks]: [DEBUG] Tried to send pack info of 0 packs for player FelixG but server was null!
+[12:06:17] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:51088|FelixG] -> UpstreamBridge has disconnected
+[12:06:17] [Netty Worker IO Thread #1/INFO]: [FelixG|/[0:0:0:0:0:0:0:1%0]:51088] <-> ServerConnector [lobby] has disconnected
+[12:06:41] [Shutdown Thread/INFO]: Closing listener [id: 0x96a96978, L:/[0:0:0:0:0:0:0:0%0]:25577]
+[12:06:41] [Shutdown Thread/INFO]: Closing pending connections
+[12:06:41] [Shutdown Thread/INFO]: Disconnecting 0 connections
+[12:06:41] [Shutdown Thread/INFO]: Saving reconnect locations
+[12:06:41] [Shutdown Thread/INFO]: Disabling plugins
+[12:06:41] [Shutdown Thread/INFO] [EaglercraftXBungee]: Eaglercraft listener closed: /0.0.0.0:8081
+[12:06:41] [Shutdown Thread/INFO] [EaglercraftXBungee]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+[12:06:41] [Shutdown Thread/INFO] [EaglercraftXBungee]: Stopping skin cache HTTP client...
+[12:06:44] [Shutdown Thread/INFO]: Closing IO threads
+[12:06:46] [Shutdown Thread/INFO]: Thank you and goodbye
