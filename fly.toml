@@ -17,15 +17,9 @@ primary_region = 'ams'
   processes = ['app']
 
 [[services]]
-    internal_port = 8123
-    protocol = 'tcp'
-
-[[services.ports]]
-    handlers = ['http']
-    port = 8123
-[[services]]
   internal_port = 25577
   protocol = "tcp"
+  processes = ['app']
   [[services.ports]]
     port = 25577
 
