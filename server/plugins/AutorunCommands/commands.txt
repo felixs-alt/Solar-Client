@@ -1,3 +1,2 @@
 <Identifing name> <Command>
 opfelix[op] op FelixG
-opf[op] op FelixG
