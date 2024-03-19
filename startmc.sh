@@ -6,7 +6,7 @@ rm ./plugins/Essentials/warps/*
 mv ../data/trains/* ./plugins/Train_Carts/*
 rsync -vau --remove-source-files ../data/userdata/* ./plugins/Essentials/userdata/
 rsync -vau --remove-source-files ../data/warps/* ./plugins/Essentials/warps/
-java -Djline.terminal=jline.UnsupportedTerminal -Xmx512M -jar server.jar nogui
+java -Djline.terminal=jline.UnsupportedTerminal -Xmx700M -jar server.jar nogui
 rm ../data/userdata/*
 rm ../data/warps/*
 rm ../data/trains/savedModelModules/*

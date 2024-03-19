@@ -42,8 +42,8 @@ permissions:
             permissions:
             - '*'
     users:
-        sk89q:
+        FelixG:
             permissions:
-            - worldedit
+            - *.*
             groups:
             - admins
