@@ -34,9 +34,6 @@ rm -rf /tmp/output
 mkdir -p bungee/plugins
 
 # update server
-rm ./server/server.jar
-cp ./misc/paper-1.8.8.jar ./server/server.jar 
-# update eagler
 rm ./bungee/plugins/EaglercraftXBungee.jar
 wget -O ./bungee/plugins/EaglercraftXBungee.jar https://www.autistici.org/eaglercraft/builds/EaglercraftX_1.8/EaglercraftX_1.8_EaglerXBungee.jar
 # update waterfall!!
@@ -53,4 +50,4 @@ fi
 cd ..
 # run it!!
 
-bash startbungee.sh & bash startmc.sh
+bash startbungee.sh
